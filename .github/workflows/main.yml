@@ -25,7 +25,7 @@ jobs:
 
     - name: Run ETL Script
       env:
-        NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+        NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
         PG_HOST: ${{ secrets.PG_HOST }}
         PG_USER: ${{ secrets.PG_USER }}
         PG_PASSWORD: ${{ secrets.PG_PASSWORD }}
